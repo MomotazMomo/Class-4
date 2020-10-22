@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 25px 0px;
+}
+.container{
+    width: 1140px;
+margin: 0 auto ;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: chartreuse;
+}
+.logo{
+width: 50%;
+float: left;
+}
+.menu{
+    width: 50%;
+    float: left;
+}
+nav{
+
+}
+nav ul{
+
+margin: 20px 0px;
+}
+nav ul li{
+
+list-style: none;
+
+display: inline;
+
+margin: 0px 12px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: rgb(11 40 242);
+
+font-size: 23px;
+}
+/* Here Section Start */
+.Hero{
+    width: 100%;
+    float: left;
+    background: url(../img/22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+.dark{
+    
+background: #00000059;
+    
+padding-bottom: 226px;
+}
+.hero-main{
+
+padding: 160px 0px;
+}
+.hero-main h1{
+
+color: #21ff04;
+
+font-size: 43px;
+
+font-weight: bold;
+font-family: 'Krona One', sans-serif;
+}
+.hero-main h2{
+
+color: #fa0505;
+
+font-size: 34px;
+
+font-weight: bold;
+font-family: 'Krona One', sans-serif;
+}
+.hero-main span{
+
+color: #fbff00;
+}
+.about{
+
+width: 100%;
+
+float: left;
+}
+.about-img{
+
+width: 50%;
+
+float: left;
+}
+.about-write{
+
+width: 50%;
+
+float: left;
+
+padding: 50px 0px;
+}
+.about-write h1{
+
+color: #ffd504;
+
+font-size: 43px;
+
+font-weight: bold;
+
+font-family: 'Krona One', sans-serif;
+}
+.about-write h3{
+
+}
+.about-write p{
+    
+font-family: 'Krona One', sans-serif;
+    
+font-weight: 300;
+    
+font-size: 21px;
+}
+
+
+/* Skill */
+.skill{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: -45px;
+    padding-bottom: 35px;
+    padding-top: 35px;margin-bottom: 15px;
+}
+
+.Graphic-Design{
+    width: 50%;
+    float: left;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    background-color: #f892e2;
+} 
+
+
+.Graphic-Design h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.Graphic-Design p{
+    font-size: 20px;
+
+    line-height: 23px;
+    padding-left: 10px;
+}
+
+.Graphic-Design img{
+        width: 500px;
+}
+
+.web-dev{
+    width: 50%;
+    float: left;
+    padding-top: 25px;
+    
+    padding-bottom: 10px;
+    background-color: #f892e2;
+   
+}
+.web-dev h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.web-dev p{
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.web-dev img{
+    width: 500px;
+}
+
+
+
+/* resume */
+.education{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding-top: 70px;
+    padding-right: 30px;
+}
+
+.back{
+    background-color: #F4F4F4;
+    margin-bottom: 30px;
+    padding-left: 10px; 
+}
+.back1{
+    background-color: #F4F4F4;padding-left: 10px;
+    
+}
+
+.experience{
+    padding-top: 70px;
+    float: left;
+    width: 45%;
+    height: 700px;
+}
+
+/* services */
+.my_services1{
+    width: 50%;
+    float: left;
+   
+}
+.my_services2{
+    width: 50%;
+    float: left;
+    
+}
+.my_services1 button{
+    border: 1px solid white;
+    background-color: white;
+    margin: 60px 70px;
+    line-height: 30px;
+    word-spacing: 5px;
+    
+}
+button i{
+    color: #FEC608;
+    font-size: 50px;
+    padding: 20px;cursor: pointer;
+}
+.my_services1 h3{
+    font-size: 20px;
+}
+.my_services1 p{
+    font-size: 15px;
+}
+.my_services2 button{
+    border: 1px solid white;
+    background-color: white;
+    margin: 55px 60px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.my_services2 h3{
+    font-size: 20px;
+}
+.my_services2 p{
+    font-size: 15px;
+}
+
+/* portfolio */
+.my_portfolio1 div{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    
+}
+.my_portfolio1 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.clr{
+    color: #F4F4F4 !important;
+    background-color: #FEC608;
+}
+.my_portfolio2 div img{
+    width: 30%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 15px;
+    
+}
+.my_portfolio3 div{
+    width: 30%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+}
+
+
+
+.contact{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+    
+}
+.follow{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+}
+.follow a{
+    font-size: 50px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 15px;
+    color: #FEC608;
+}
+.follow a:hover{
+    color: #5365BA;
+    transition: 0.5s;
+  
+
+}
+
+.text{
+    width: 25%;
+    padding-top: 30px;
+    float: left; 
+    margin-right: 25px;
+    
+}
+
+.text input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-bottom: 25px;
+}
+
+.text textarea{
+    padding-left: 20px;
+}
+
+
+/* footer */
+.my_foot{
+
+    width: 100%;
+    height: 50px;
+    background-color: #4C4C4C;
+    float: left;
+    margin-top: 30px;
+}
+.my_foot1{
+    float: left;
+    color: #F4F4F4;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 380px;
+    
+}
+.my_foot2{
+    float: left;
+    color: #F4F4F4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
